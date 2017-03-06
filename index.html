@@ -74,6 +74,63 @@
         </div>
     </section>
 
+    <section id="get-in-toutch">
+        <div class="container">
+            <form action="/contact" method="GET">
+            <div>  
+                <label for="name">Your name</label>
+                <input id="name" type="text" name="vardas">
+            </div>
+            <div>
+                <lable for="number">Budget</lable>
+                <input id="number" type="number" name="number">
+            </div>
+            <div>   
+                <lable>
+                    Select project type
+                    <select name="type" id="">
+                           <option value="1">HTML</option> 
+                           <option value="2">HTML+CSS</option> 
+                           <option value="3">HTML FULL</option> 
+                    </select>
+                </lable>
+            </div>
+
+            <div> 
+                <label for="des">Message</label>
+                <textarea id="des" name="description" id="" cols="10" rows="5"></textarea>
+            </div>
+            <div>
+                <lable for="filee">Attach file</lable>
+                <input type="file" name="file">
+            </div>
+            <div>
+                Do you need a design?
+                <label>
+                    Yes
+                    <input name="design-needed" type="checkbox" value="1">  
+                </label>
+                <label>
+                    No
+                    <input name="design-needed" type="checkbox" value="2">  
+                </label>
+            </div>
+            <div>
+                Password
+                <input type="password" name="pwd">
+            </div>
+            <div>
+                <input type="submit" value="send">
+            </div>
+
+            </form>
+            
+        </div>   
+
+
+
+    </section>
+
 </body>
 
 </html>
